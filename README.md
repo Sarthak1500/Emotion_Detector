@@ -41,7 +41,7 @@ pip install streamlit nltk numpy scikit-learn pickle-mixin
    ```
 2. Run the application:
    ```bash
-   streamlit run app.py
+   streamlit run streamlit_app.py
    ```
 3. Enter text into the provided input field and click **Predict** to see the detected emotion.
 
