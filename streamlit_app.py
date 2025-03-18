@@ -1,7 +1,7 @@
-import streamlit as st 
+import streamlit as st
 import nltk
-import numpy as np 
-import pickle 
+import numpy as np
+import pickle
 from nltk.stem import PorterStemmer
 import re
 
@@ -63,7 +63,5 @@ input_text = st.text_area(label="Paste Your Text Here", height=100)
 if st.button('Predict'):
     predicted_emotion,label = predict_emotion(input_text)
     predicted_emotion = predicted_emotion.upper()
-    
-    st.write("Predicted Emotion:", predicted_emotion)
-    
 
+    st.write("Predicted Emotion:", predicted_emotion)
